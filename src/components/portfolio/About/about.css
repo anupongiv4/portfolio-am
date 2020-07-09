@@ -1,0 +1,169 @@
+.personal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Image and name section */
+
+.personal-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 20px auto;
+    box-shadow: 1px 1px 20px black;
+    max-width: 600px;
+}
+
+.top-info .img-con {
+    position: relative;
+}
+
+.top-info .img-con img {
+    margin: unset;
+    width: 100%;
+    height: 400px;
+}
+
+.top-info .img-con h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.info-contact i {
+    font-size: 2rem;
+    margin: 15px;
+}
+
+/* Skill Section */
+
+.skill-con {
+    margin: 20px 0;
+}
+
+.skill-container {
+    margin: 20px 0;
+}
+
+.skill-container i {
+    margin: 15px;
+}
+
+.skill-container p {
+    margin-left: 12px;
+}
+
+.skill-container .container {
+    margin: auto;
+    width: 95%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.container .skills {
+    text-align: center;
+    color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.react {width: 60%; background-color: #808080;}
+.node {width: 25%; background-color: #9c1f9c;}
+.git {width: 50%; background-color: #1bc0e9;}
+
+/* language Section  */
+
+.language-con i {
+    margin: 15px;
+}
+
+.language-item {
+    margin: 23px 0;
+}
+
+.language-item p {
+    margin-left: 15px;
+}
+
+.language-con .language-container {
+    margin: auto;
+    width: 95%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.language-container .l-skills {
+    color: white;
+}
+
+.th {width: 100%; background-color: #ecc900;}
+.eng {width: 75%; background-color: #004faa;}
+
+@media screen and (min-width: 800px) {
+    .personal {
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+        margin: auto;
+    }
+}
+
+/* work expereince Section */
+
+.we-container, .edu-container {
+    width: 95%;
+    margin: 20px auto;
+    box-shadow: 1px 1px 20px black;
+}
+
+.we-container h1 {
+    margin: 0 40px 10px 40px;
+    padding-top: 20px;
+}
+
+.position {
+    padding: 10px 40px 10px 40px;
+}
+
+.position i {
+    font-size: 2rem;
+    margin: 15px 15px 15px 15px;
+}
+
+.position .info {
+    margin: 10px 5px;
+}
+
+/* Education Section */
+
+.edu-container h1 {
+    margin: 0 40px 10px 40px;
+    padding-top: 15px;
+}
+
+.edu-container .edu-info h3 {
+    margin: 0 40px 0 40px;
+}
+
+.edu-container .edu-info i {
+    font-size: 2rem;
+    margin: 10px 20px 10px 50px;
+}
+
+/* Certificate Section */
+
+.cer-item {
+    padding: 5px 40px 5px 40px;
+}
+
+.cer-item h3 {
+    margin: 5px 0 10px 0;
+}
+
+.cer-item i {
+    font-size: 2rem;
+    margin: 10px 15px 10px 10px;
+}

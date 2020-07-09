@@ -1,0 +1,219 @@
+.banner-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../../images/background-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+img {
+    margin: 10px 0 0 0;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+span {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.banner-container-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    transition: 0.3s;
+    list-style: none;
+}
+
+.sidenav a:hover {
+    color:#f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav .hambar-burger {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidenav .hambar-burger a {
+    padding: 0;
+    margin: 8px 0;
+}
+
+.sidenav .hambar-burger a img {
+    position: unset;
+}
+
+.sidenav .hambar-burger a .facebook-logo-m {
+    width: 80px;
+    height: 80px;
+    
+}
+
+.sidenav .hambar-burger a .twitter-logo-m {
+    width: 60px;
+    height: 60px;
+}
+
+.sidenav .hambar-burger a .github-logo-m {
+    width: 60px;
+    height: 60px;
+}
+
+.sidenav img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 50px;
+    margin: 0;
+}
+
+.sidenav a .facebook-logo-m {
+    width: 140px;
+    height: 140px;
+}
+
+.social-logo {
+    display: none;
+}
+
+.NavBar-desktop {
+    display: none;
+}
+
+.NavBar-desktop li {
+    list-style: none;
+}
+
+/* Banner Text */
+.banner-text {
+    height: 60%;
+    width: 80%;
+    margin: auto auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 800px) {
+    .banner-container {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .NavBar {
+        display: none;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .NavBar-desktop {
+        width: 400px;
+        height: 90px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 17%;
+    }
+
+    .NavBar-desktop a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        transition: all 0.5s;
+        color: rgb(148, 148, 148);
+    }
+
+    .NavBar-desktop a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    /* Social - logo */
+
+    .social-logo {
+        display: flex;
+        height: 90px;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .social-logo a img {
+        margin: 0 10px 0 10px;
+        opacity: unset;
+        transition: all 0.5s linear;
+    }
+
+    .social-logo a img:hover {
+        opacity: 0.5;
+    }
+
+    .social-logo .facebook-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .social-logo .twitter-logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .social-logo .github-logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* Banner Text */
+    .banner-text {
+        font-size: 28px;
+        line-height: 6.5rem;
+    }
+}
