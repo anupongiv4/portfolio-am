@@ -35,7 +35,7 @@ function NavigationBar() {
             <div className="NavBar" >
                 <div id="mySidenav" className="sidenav">
                     <a className="closebtn" onClick={closeNav} >&times;</a>
-                    <Link to="/" >
+                    <Link to="/portfolio-am" >
                         <li>Portfolio</li>
                     </Link>
                     <Link to="about" >
@@ -59,7 +59,7 @@ function NavigationBar() {
 
             {/* desktop navigation */}
             <div className="NavBar-desktop" >
-                <Link to="/" >
+                <Link to="/portfolio-am" >
                     <li>Portfolio</li>
                 </Link>
                 <Link to="about" >
