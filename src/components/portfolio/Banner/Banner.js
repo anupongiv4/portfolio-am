@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 function Logo() {
     return (
         <div>
-            <Link to="portfolio-am" >
+            <Link to="/" >
                 <img src={logo} alt="logo" />
             </Link>
         </div>
@@ -35,7 +35,7 @@ function NavigationBar() {
             <div className="NavBar" >
                 <div id="mySidenav" className="sidenav">
                     <a className="closebtn" onClick={closeNav} >&times;</a>
-                    <Link to="portfolio-am" >
+                    <Link to="/" >
                         <li>Portfolio</li>
                     </Link>
                     <Link to="about" >
@@ -59,7 +59,7 @@ function NavigationBar() {
 
             {/* desktop navigation */}
             <div className="NavBar-desktop" >
-                <Link to="portfolio-am" >
+                <Link to="/" >
                     <li>Portfolio</li>
                 </Link>
                 <Link to="about" >
