@@ -9,12 +9,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL + '/'} >
       <div className="App">
         <Banner />
           <Switch>
             {/* Use process.env.PUBLIC_URL in route definitions so that they work both in development and after deployment */}
-            <Route exact path={process.env.PUBLIC_URL + '/'} component={Index_main} /> 
+            <Route exact path="/" component={Index_main} /> 
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
           </Switch>
