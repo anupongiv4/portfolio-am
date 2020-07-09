@@ -5,7 +5,7 @@ import { info } from './projectcontent';
 function Example(props) {
     return (
         <div className={props.griditem}>
-            <a href="#" ><img src={props.img} alt="project" /></a>
+            <a href={props.link} target="_blank" ><img src={props.img} alt="project" /></a>
             <div className={props.cont} >
                 <h1>{props.text}</h1>
                 <p>{props.description}</p>
@@ -23,7 +23,8 @@ function ProjectExamples() {
                     img={info.info1.pic}
                     description={info.info1.description}
                     griditem="grid-item1"
-                    cont="cont-1" />
+                    cont="cont-1"
+                    link="https://anupongiv4.github.io/mini-weather-app/" />
 
                 <Example text={info.info2.name}
                     img={info.info2.pic}
