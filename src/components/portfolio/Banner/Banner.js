@@ -35,13 +35,13 @@ function NavigationBar() {
             <div className="NavBar" >
                 <div id="mySidenav" className="sidenav">
                     <a className="closebtn" onClick={closeNav} >&times;</a>
-                    <Link to="portfolio-am" >
+                    <Link to="/portfolio-am" >
                         <li>Portfolio</li>
                     </Link>
-                    <Link to="about" >
+                    <Link to="/about" >
                         <li>About me</li>
                     </Link>
-                    <Link to="contact" >
+                    <Link to="/contact" >
                         <li>Contact</li>
                     </Link>
                     <div className="hambar-burger" >
@@ -59,13 +59,13 @@ function NavigationBar() {
 
             {/* desktop navigation */}
             <div className="NavBar-desktop" >
-                <Link to="portfolio-am" >
+                <Link to="/portfolio-am" >
                     <li>Portfolio</li>
                 </Link>
-                <Link to="about" >
+                <Link to="/about" >
                     <li>About me</li>
                 </Link>
-                <Link to="contact" >
+                <Link to="/contact" >
                     <li>Contact</li>
                 </Link>
             </div>
