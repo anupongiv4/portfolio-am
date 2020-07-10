@@ -5,16 +5,16 @@ import Index_main from '../portfolio/index-main';
 import About from '../portfolio/About/About';
 import Contact from '../portfolio/contact/Contact';
 import Footer from '../portfolio/Footer/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL + '/'} >
+    <Router>
       <div className="App">
         <Banner />
           <Switch>
             {/* Use process.env.PUBLIC_URL in route definitions so that they work both in development and after deployment */}
-            <Route exact path="/home" component={Index_main} /> 
+            <Route path="/" component={Index_main} /> 
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
           </Switch>
