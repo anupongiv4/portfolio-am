@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-am/static/css/main.c3bcca16.chunk.css",
+    "main.css": "/portfolio-am/static/css/main.8ec12645.chunk.css",
     "main.js": "/portfolio-am/static/js/main.63988faa.chunk.js",
     "main.js.map": "/portfolio-am/static/js/main.63988faa.chunk.js.map",
     "runtime-main.js": "/portfolio-am/static/js/runtime-main.3981f484.js",
@@ -8,9 +8,9 @@
     "static/js/2.f59215d0.chunk.js": "/portfolio-am/static/js/2.f59215d0.chunk.js",
     "static/js/2.f59215d0.chunk.js.map": "/portfolio-am/static/js/2.f59215d0.chunk.js.map",
     "index.html": "/portfolio-am/index.html",
-    "precache-manifest.5262b4e1b6f0603e0c7a42433fdb3a93.js": "/portfolio-am/precache-manifest.5262b4e1b6f0603e0c7a42433fdb3a93.js",
+    "precache-manifest.2b373b17ed0bf77b51e3ec42d2ce8f9b.js": "/portfolio-am/precache-manifest.2b373b17ed0bf77b51e3ec42d2ce8f9b.js",
     "service-worker.js": "/portfolio-am/service-worker.js",
-    "static/css/main.c3bcca16.chunk.css.map": "/portfolio-am/static/css/main.c3bcca16.chunk.css.map",
+    "static/css/main.8ec12645.chunk.css.map": "/portfolio-am/static/css/main.8ec12645.chunk.css.map",
     "static/js/2.f59215d0.chunk.js.LICENSE.txt": "/portfolio-am/static/js/2.f59215d0.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/portfolio-am/static/media/background-banner.0f1df42e.jpg",
     "static/media/creditcard-checker.png": "/portfolio-am/static/media/creditcard-checker.fecf63f0.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.3981f484.js",
     "static/js/2.f59215d0.chunk.js",
-    "static/css/main.c3bcca16.chunk.css",
+    "static/css/main.8ec12645.chunk.css",
     "static/js/main.63988faa.chunk.js"
   ]
 }
