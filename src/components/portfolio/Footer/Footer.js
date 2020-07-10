@@ -13,10 +13,10 @@ function FooterNav() {
                 <Link to="/" >
                     <li>Portfolio</li>
                 </Link>
-                <Link to="about" >
+                <Link to="/about" >
                     <li>About me</li>
                 </Link>
-                <Link to="contact" >
+                <Link to="/about" >
                     <li>Contact</li>
                 </Link>
             </ul>

@@ -36,13 +36,13 @@ function NavigationBar() {
                 <div id="mySidenav" className="sidenav">
                     <a className="closebtn" onClick={closeNav} >&times;</a>
                     <Link to="/" >
-                        <li>Portfolio</li>
+                        <li onClick={closeNav} >Portfolio</li>
                     </Link>
-                    <Link to="about" >
-                        <li>About me</li>
+                    <Link to="/about" >
+                        <li onClick={closeNav} >About me</li>
                     </Link>
-                    <Link to="contact" >
-                        <li>Contact</li>
+                    <Link to="/about" >
+                        <li onClick={closeNav} >Contact</li>
                     </Link>
                     <div className="hambar-burger" >
                         <a href="https://web.facebook.com/AmFilm4/" target="_blank" rel="noopener noreferrer" ><img src={facebook} alt="logo" className="facebook-logo-m" /></a>
@@ -62,10 +62,10 @@ function NavigationBar() {
                 <Link to="/" >
                     <li>Portfolio</li>
                 </Link>
-                <Link to="about" >
+                <Link to="/about" >
                     <li>About me</li>
                 </Link>
-                <Link to="contact" >
+                <Link to="/about" >
                     <li>Contact</li>
                 </Link>
             </div>

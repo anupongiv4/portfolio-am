@@ -13,10 +13,9 @@ function App() {
       <div className="App">
         <Banner />
           <Switch>
-            {/* Use process.env.PUBLIC_URL in route definitions so that they work both in development and after deployment */}
-            <Route path="/" component={Index_main} /> 
+            <Route exact path="/" component={Index_main} /> 
             <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
+            {/* <Route path="/contact" component={Contact} /> */}
           </Switch>
         <Footer />
       </div>

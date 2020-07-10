@@ -10,15 +10,15 @@ export const info = {
         pic: weatherApp
     },
     info2: {
-        name: 'Credit Card Checker',
+        name: 'PROJECT 2',
         src: '',
-        description: 'Created purely with HTML, CSS and Javascript checking users\' credit card by Luhn algorithm',
+        description: '( COMING SOON )',
         pic: ccChecker
     },
     info3: {
-        name: 'Example 3',
+        name: 'PROJECT 3',
         src: project3,
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry ( COMING SOON )',
         pic: ''
     }
 };

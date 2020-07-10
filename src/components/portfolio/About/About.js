@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import Work_Edu from './work-edu';
-import profile from '../../images/project-1.jpg';
+import profile from '../../images/profile.jpg';
 
 const Language = () => {
     return (

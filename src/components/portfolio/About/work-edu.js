@@ -36,7 +36,7 @@ const Work_Experience = () => {
             <h1> Work Experience </h1>
             <div className="position" >
                 <h3>Guest Service Agent / Chillax Resort Hotel </h3>
-                <p><i className="fa fa-calendar" ></i>December 2018 - Current</p>
+                <p><i className="fa fa-calendar" ></i>December 2018 - <strong>CURRENT</strong></p>
                 <p className="info" >Administering front desk services to guest. Being a source of information to guests on various matters. Solving problems to the satisfying and proper solutions for guests. </p>
             </div>
             <div className="position" >
