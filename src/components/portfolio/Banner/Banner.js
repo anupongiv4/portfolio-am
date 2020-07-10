@@ -34,7 +34,7 @@ function NavigationBar() {
             {/* mobile navigation */}
             <div className="NavBar" >
                 <div id="mySidenav" className="sidenav">
-                    <a className="closebtn" onClick={closeNav} >&times;</a>
+                    <i className="closebtn" href="#" onClick={closeNav} >&times;</i>
                     <Link to="/" >
                         <li onClick={closeNav} >Portfolio</li>
                     </Link>

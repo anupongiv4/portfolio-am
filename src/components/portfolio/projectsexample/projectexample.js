@@ -5,7 +5,7 @@ import { info } from './projectcontent';
 function Example(props) {
     return (
         <div className={props.griditem}>
-            <a href={props.link} target="_blank" ><img src={props.img} alt="project" /></a>
+            <a href={props.link} target="_blank" rel="noopener noreferrer" ><img src={props.img} alt="project" /></a>
             <div className={props.cont} >
                 <h1>{props.text}</h1>
                 <p>{props.description}</p>

@@ -5,7 +5,7 @@ import { certificate_list } from './we-content';
 const Certificate = (props) => {
     let list_item = props.list.map(item => {
         return (
-            <div className="cer-item" >
+            <div className="cer-item" key={item.id} >
                 <h3>{item.topic}</h3>
                 <h4>{item.organization}</h4>
                 <p><i className="fa fa-calendar" ></i> {item.date}</p>
@@ -30,7 +30,7 @@ const Education = () => {
     )
 };
 
-const Work_Experience = () => {
+const WorkExperience = () => {
     return (
         <div className="we-container" >
             <h1> Work Experience </h1>
@@ -42,7 +42,7 @@ const Work_Experience = () => {
             <div className="position" >
                 <h3>Administrative Officer / Krungthai Bank </h3>
                 <p><i className="fa fa-calendar" ></i>March 2018 - October 2018</p>
-                <p className="info" >Administering front desk services to guest. Being a source of information to guests on various matters. Solving problems to the satisfying and proper solutions for guests. </p>
+                <p className="info" >Took care of administrative duties, coordinated with officers from other departments and assisted the team as assigned from manager.</p>
             </div>
         </div>
     )
@@ -51,7 +51,7 @@ const Work_Experience = () => {
 const Work_Edu = () => {
     return (
         <div>
-            <Work_Experience />
+            <WorkExperience />
             <Education />
         </div>
     )

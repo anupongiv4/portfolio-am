@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import Work_Edu from './work-edu';
+import WorkEdu from './work-edu';
 import profile from '../../images/profile.jpg';
 
 const Language = () => {
@@ -70,11 +70,11 @@ const Skill = () => {
     )
 };
 
-const Personal_info = () => {
+const PersonalInfo = () => {
     return (
         <div className="top-info" >
             <div className="img-con" >
-                <img src={profile} />
+                <img src={profile} alt="profile images" />
                 <h2>Anupong Meesang</h2>
             </div>
             <div className="info-contact" >
@@ -90,7 +90,7 @@ const Personal_info = () => {
 const Personal = () => {
     return (
         <div className="personal-info-container" >
-            <Personal_info />
+            <PersonalInfo />
             <Skill />
             <Language />
         </div>
@@ -101,7 +101,7 @@ const About = () => {
     return (
         <div className="personal">
             <Personal />
-            <Work_Edu />
+            <WorkEdu />
         </div>
     )
 }
