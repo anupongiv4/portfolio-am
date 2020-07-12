@@ -1,42 +1,61 @@
 import React from 'react';
 import './projectexample.css';
-import { info } from './projectcontent';
+import project3 from '../../images/project-3.jpg';
+import weatherApp from '../../images/mini-weather-app.png';
+import ccChecker from '../../images/creditcard-checker.png';
 
-function Example(props) {
-    return (
-        <div className={props.griditem}>
-            <a href={props.link} target="_blank" rel="noopener noreferrer" ><img src={props.img} alt="project" /></a>
-            <div className={props.cont} >
-                <h1>{props.text}</h1>
-                <p>{props.description}</p>
-            </div> 
-        </div>
-    )
+const info = [{
+    id: 1,
+    name: 'Weather App',
+    src: '',
+    description: 'Displaying current celsius on a specific city like Bangkok or London. Created with HTML, CSS, JavaScript, React and API',
+    pic: weatherApp,
+    link: 'https://anupongiv4.github.io/mini-weather-app/',
+    griditem: 'grid-item1',
+    cont:'cont-1'
+}, {
+    id: 2,
+    name: 'PROJECT 2',
+    src: '',
+    description: '( COMING SOON )',
+    pic: ccChecker,
+    link: '',
+    griditem: 'grid-item2',
+    cont:'cont-1'
+}, {
+    id: 3,
+    name: 'PROJECT 3',
+    src: '',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry ( COMING SOON )',
+    pic: project3,
+    link: '',
+    griditem: 'grid-item3',
+    cont:'cont-1'
+}];
+
+function Example() {
+    const item = info.map(element => {
+        return (
+            <div className={element.griditem} key={element.id} >
+                <a href={element.link} target="_blank" rel="noopener noreferrer" ><img src={element.pic} alt="project" /></a>
+                <div className={element.cont} >
+                    <h1>{element.name}</h1>
+                    <p>{element.description}</p>
+                </div> 
+            </div>
+        )
+    });
+
+    return item;
 }
+
 
 function ProjectExamples() {
     return (
         <div className="pro-container" >
             <h1 className="pro-topic">Projects</h1>
             <div className="pro-grid" >
-                <Example text={info.info1.name}
-                    img={info.info1.pic}
-                    description={info.info1.description}
-                    griditem="grid-item1"
-                    cont="cont-1"
-                    link="https://anupongiv4.github.io/mini-weather-app/" />
-
-                <Example text={info.info2.name}
-                    img={info.info2.pic}
-                    description={info.info2.description}
-                    griditem="grid-item2"
-                    cont="cont-2" />
-
-                <Example text={info.info3.name}
-                    img={info.info3.src}
-                    description={info.info3.description}
-                    griditem="grid-item3"
-                    cont="cont-3" />
+                <Example />
             </div>
         </div>
     )

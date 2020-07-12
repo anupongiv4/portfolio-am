@@ -3,25 +3,37 @@ import './about.css';
 import WorkEdu from './work-edu';
 import profile from '../../images/profile.jpg';
 
+// language section
+const LanguageItem = (props) => {
+    return (
+        <div className="language-item" >
+            <p>{props.topic}</p>
+            <div className="language-container">
+                <div className={`l-skills ${props.lang}`} >{props.percent}</div>
+            </div>
+        </div>
+    )
+};
+// end language section
+
 const Language = () => {
     return (
         <div className="language-con" >
             <h2><i className="fa fa-globe" ></i>Language</h2>
+            <LanguageItem topic="Thai" percent="100" lang="th" />
+            <LanguageItem topic="English" percent="75%" lang="eng" />
+        </div>
+    )
+};
 
-            <div className="language-item" >
-                <p>Thai</p>
-                <div className="language-container">
-                    <div className="l-skills th">100%</div>
-                </div>
+// skill section
+const SkillItem = (props) => {
+    return (
+        <div className="skill-con" >
+            <p>{props.header}</p>
+            <div className="container">
+                <div className={`skills ${props.lang}`}>{props.percent}</div>
             </div>
-
-            <div className="language-item" >
-                <p>English</p>
-                <div className="language-container">
-                    <div className="l-skills eng">75%</div>
-                </div>
-            </div>
-
         </div>
     )
 };
@@ -30,46 +42,18 @@ const Skill = () => {
     return (
         <div className="skill-container" >
             <h2><i className="fa fa-asterisk" ></i>Skills</h2>
-            <div className="skill-con" >
-                <p>HTML</p>
-                <div className="container">
-                    <div className="skills html">90%</div>
-                </div>
-            </div>
-            <div className="skill-con">
-                <p>CSS</p>
-                <div className="container">
-                    <div className="skills css">80%</div>
-                </div>
-            </div>
-            <div className="skill-con" >
-                <p>JavaScript</p>
-                <div className="container">
-                    <div className="skills js">65%</div>
-                </div>
-            </div>
-            <div className="skill-con" >
-                <p>React</p>
-                <div className="container">
-                    <div className="skills react">60%</div>
-                </div>
-            </div>
-            <div className="skill-con" >
-                <p>Node JS</p>
-                <div className="container">
-                    <div className="skills node">25%</div>
-                </div>
-            </div>
-            <div className="skill-con" >
-                <p>Git</p>
-                <div className="container">
-                    <div className="skills git">50%</div>
-                </div>
-            </div>
+            <SkillItem header="HTML" percent="90%" lang="html" />
+            <SkillItem header="CSS" percent="80%" lang="css" />
+            <SkillItem header="JavaScript" percent="65%" lang="js" />
+            <SkillItem header="React" percent="60%" lang="react" />
+            <SkillItem header="Node JS" percent="25%" lang="node" />
+            <SkillItem header="Git" percent="50%" lang="git" />
         </div>
     )
 };
+// end skill section
 
+// personal infomation section
 const PersonalInfo = () => {
     return (
         <div className="top-info" >
@@ -86,21 +70,16 @@ const PersonalInfo = () => {
         </div>
     )
 };
-
-const Personal = () => {
-    return (
-        <div className="personal-info-container" >
-            <PersonalInfo />
-            <Skill />
-            <Language />
-        </div>
-    )
-}
+// end personal infomation section
 
 const About = () => {
     return (
         <div className="personal">
-            <Personal />
+            <div className="personal-info-container" >
+                <PersonalInfo />
+                <Skill />
+                <Language />
+            </div>
             <WorkEdu />
         </div>
     )

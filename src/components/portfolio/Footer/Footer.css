@@ -8,28 +8,28 @@
     align-items: center;
 }
 
+
+/* Logo */
 .footer-container .footer-logo img {
     width: 100px;
     height: 100px;
     margin: unset;
 }
 
+/* footer links */
 .footer-nav ul li {
     list-style: none;
     margin: 50px 0 50px 0;
-    text-decoration: none;
+    text-decoration: unset;
     color: white;
     transition: all 0.3s linear;
-}
-
-.footer-nav ul li {
-    
 }
 
 .footer-nav ul li:hover {
     color: rgb(158, 158, 158);
 }
 
+/* footer social links */
 .footer-social {
     display: flex;
     flex-direction: column;
