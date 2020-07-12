@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-am/static/css/main.95b1a2e7.chunk.css",
-    "main.js": "/portfolio-am/static/js/main.eae71318.chunk.js",
-    "main.js.map": "/portfolio-am/static/js/main.eae71318.chunk.js.map",
-    "runtime-main.js": "/portfolio-am/static/js/runtime-main.3981f484.js",
-    "runtime-main.js.map": "/portfolio-am/static/js/runtime-main.3981f484.js.map",
-    "static/js/2.f59215d0.chunk.js": "/portfolio-am/static/js/2.f59215d0.chunk.js",
-    "static/js/2.f59215d0.chunk.js.map": "/portfolio-am/static/js/2.f59215d0.chunk.js.map",
+    "main.css": "/portfolio-am/static/css/main.d11a5597.chunk.css",
+    "main.js": "/portfolio-am/static/js/main.03f8766d.chunk.js",
+    "main.js.map": "/portfolio-am/static/js/main.03f8766d.chunk.js.map",
+    "runtime-main.js": "/portfolio-am/static/js/runtime-main.0b9ea6da.js",
+    "runtime-main.js.map": "/portfolio-am/static/js/runtime-main.0b9ea6da.js.map",
+    "static/js/2.ca2688cb.chunk.js": "/portfolio-am/static/js/2.ca2688cb.chunk.js",
+    "static/js/2.ca2688cb.chunk.js.map": "/portfolio-am/static/js/2.ca2688cb.chunk.js.map",
     "index.html": "/portfolio-am/index.html",
-    "precache-manifest.99f18799cc1458a29e92b8ec49d62d33.js": "/portfolio-am/precache-manifest.99f18799cc1458a29e92b8ec49d62d33.js",
+    "precache-manifest.38386c86f56660e41665a46c882dcc54.js": "/portfolio-am/precache-manifest.38386c86f56660e41665a46c882dcc54.js",
     "service-worker.js": "/portfolio-am/service-worker.js",
-    "static/css/main.95b1a2e7.chunk.css.map": "/portfolio-am/static/css/main.95b1a2e7.chunk.css.map",
-    "static/js/2.f59215d0.chunk.js.LICENSE.txt": "/portfolio-am/static/js/2.f59215d0.chunk.js.LICENSE.txt",
+    "static/css/main.d11a5597.chunk.css.map": "/portfolio-am/static/css/main.d11a5597.chunk.css.map",
+    "static/js/2.ca2688cb.chunk.js.LICENSE.txt": "/portfolio-am/static/js/2.ca2688cb.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/portfolio-am/static/media/background-banner.0f1df42e.jpg",
     "static/media/creditcard-checker.png": "/portfolio-am/static/media/creditcard-checker.fecf63f0.png",
     "static/media/facebook-logo.png": "/portfolio-am/static/media/facebook-logo.7428c0e4.png",
@@ -24,9 +24,9 @@
     "static/media/twitter-logo.png": "/portfolio-am/static/media/twitter-logo.e45b22a9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3981f484.js",
-    "static/js/2.f59215d0.chunk.js",
-    "static/css/main.95b1a2e7.chunk.css",
-    "static/js/main.eae71318.chunk.js"
+    "static/js/runtime-main.0b9ea6da.js",
+    "static/js/2.ca2688cb.chunk.js",
+    "static/css/main.d11a5597.chunk.css",
+    "static/js/main.03f8766d.chunk.js"
   ]
 }
