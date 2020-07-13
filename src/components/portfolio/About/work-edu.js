@@ -36,7 +36,7 @@ const certificate_list = [{
 const workEx = [{
     id: 1,
     position: 'Guest Service Agent / Chillax Resort Hotel',
-    date: 'December 2018 - <strong>CURRENT</strong>',
+    date: 'December 2018 - CURRENT',
     duty: 'Administering front desk services to guest. Being a source of information to guests on various matters. Solving problems to the satisfying and proper solutions for guests.'
 }, {
     id: 2,

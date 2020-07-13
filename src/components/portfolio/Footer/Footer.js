@@ -11,6 +11,9 @@ function FooterNav() {
         <div className="footer-nav">
             <ul>
                 <Link to="/" >
+                    <li>Home</li>
+                </Link>
+                <Link to="/project" >
                     <li>Portfolio</li>
                 </Link>
                 <Link to="/about" >

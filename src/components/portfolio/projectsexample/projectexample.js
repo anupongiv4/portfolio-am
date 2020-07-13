@@ -2,26 +2,28 @@ import React from 'react';
 import './projectexample.css';
 import project3 from '../../images/project-3.jpg';
 import weatherApp from '../../images/mini-weather-app.png';
-import ccChecker from '../../images/creditcard-checker.png';
+import colmar from '../../images/comaracademy1.png';
 
 const info = [{
     id: 1,
     name: 'Weather App',
     src: '',
-    description: 'Displaying current celsius on a specific city like Bangkok or London. Created with HTML, CSS, JavaScript, React and API',
+    description: 'Displaying current celsius on a specific city like Bangkok or London.',
     pic: weatherApp,
     link: 'https://anupongiv4.github.io/mini-weather-app/',
     griditem: 'grid-item1',
-    cont:'cont-1'
+    cont:'cont-1',
+    technology: 'HTML CSS JavaScript React'
 }, {
     id: 2,
-    name: 'PROJECT 2',
+    name: 'Colmar Academy',
     src: '',
-    description: '( COMING SOON )',
-    pic: ccChecker,
-    link: '',
+    description: 'Resposive website',
+    pic: colmar,
+    link: 'https://anupongiv4.github.io/colmaracademy/',
     griditem: 'grid-item2',
-    cont:'cont-1'
+    cont:'cont-1',
+    technology: 'HTML CSS'
 }, {
     id: 3,
     name: 'PROJECT 3',
@@ -30,7 +32,8 @@ const info = [{
     pic: project3,
     link: '',
     griditem: 'grid-item3',
-    cont:'cont-1'
+    cont:'cont-1',
+    technology: ''
 }];
 
 function Example() {
@@ -41,6 +44,7 @@ function Example() {
                 <div className={element.cont} >
                     <h1>{element.name}</h1>
                     <p>{element.description}</p>
+                    <p>{element.technology}</p>
                 </div> 
             </div>
         )
