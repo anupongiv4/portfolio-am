@@ -1,43 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e29b40604661f199b9486edb5376707b",
+    "revision": "5b8123979e847c976afbaaa43eb6ed66",
     "url": "/portfolio-am/index.html"
   },
   {
-    "revision": "b6e129e2510986801091",
-    "url": "/portfolio-am/static/css/main.d11a5597.chunk.css"
+    "revision": "f6cfacf8a9149ada96ea",
+    "url": "/portfolio-am/static/css/main.b944bc70.chunk.css"
   },
   {
-    "revision": "9544486b7a5d85e3d996",
-    "url": "/portfolio-am/static/js/2.ca2688cb.chunk.js"
+    "revision": "dbbfe0d6af54752caa08",
+    "url": "/portfolio-am/static/js/2.9f2f0716.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio-am/static/js/2.ca2688cb.chunk.js.LICENSE.txt"
+    "url": "/portfolio-am/static/js/2.9f2f0716.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6e129e2510986801091",
-    "url": "/portfolio-am/static/js/main.03f8766d.chunk.js"
+    "revision": "f6cfacf8a9149ada96ea",
+    "url": "/portfolio-am/static/js/main.2acd3298.chunk.js"
   },
   {
     "revision": "2b0bac480976d5965014",
     "url": "/portfolio-am/static/js/runtime-main.0b9ea6da.js"
   },
   {
+    "revision": "9f7c8444c8468bad44197ce62ecf5b77",
+    "url": "/portfolio-am/static/media/IMG2.9f7c8444.jpg"
+  },
+  {
     "revision": "0f1df42e69da01bb61496a90fb517416",
     "url": "/portfolio-am/static/media/background-banner.0f1df42e.jpg"
   },
   {
-    "revision": "fecf63f00845ae2ad153e5b507a75924",
-    "url": "/portfolio-am/static/media/creditcard-checker.fecf63f0.png"
+    "revision": "f44d99b852b82b7c9c83343be2030cc2",
+    "url": "/portfolio-am/static/media/comaracademy1.f44d99b8.png"
+  },
+  {
+    "revision": "5c4e16ceb77211d7b286e351e272328d",
+    "url": "/portfolio-am/static/media/css.5c4e16ce.png"
   },
   {
     "revision": "7428c0e4a2d2b5c1314d3f98f7ccbcbb",
     "url": "/portfolio-am/static/media/facebook-logo.7428c0e4.png"
   },
   {
+    "revision": "036bf7c4f6b41f6714f72edd83d291d2",
+    "url": "/portfolio-am/static/media/git.036bf7c4.png"
+  },
+  {
     "revision": "9260c7748ae909153ba2f9bc78fe0b88",
     "url": "/portfolio-am/static/media/github-mark.9260c774.png"
+  },
+  {
+    "revision": "6962bac836817bbc79be27b3d95c9e33",
+    "url": "/portfolio-am/static/media/img1.6962bac8.jpg"
   },
   {
     "revision": "7b516dfd1494af9e40c083330d273ade",
@@ -58,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c937d3a8918a8bbe63ccf6630bd3deba",
     "url": "/portfolio-am/static/media/project-3.c937d3a8.jpg"
+  },
+  {
+    "revision": "d6bdcfb24f57bffcd8e8b695f75ef263",
+    "url": "/portfolio-am/static/media/react.d6bdcfb2.png"
   },
   {
     "revision": "e45b22a96c8cb7dcc706b8bbfecda456",
