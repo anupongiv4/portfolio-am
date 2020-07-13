@@ -51,7 +51,7 @@ const Certificate = () => {
         return (
             <div className="cer-item" key={item.id} >
                 <h3>{item.topic}</h3>
-                <h4>{item.organization}</h4>
+                <p>{item.organization}</p>
                 <p><i className="fa fa-calendar" ></i> {item.date}</p>
             </div>
         )

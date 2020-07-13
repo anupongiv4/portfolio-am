@@ -29,12 +29,15 @@
     margin: unset;
     width: 100%;
     height: unset;
+    border-radius: 15px;
 }
 
 .top-info .img-con h2 {
     position: absolute;
     bottom: 30px;
     left: 30px;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
 .info-contact i {
@@ -111,7 +114,7 @@
     .personal {
         display: flex;
         flex-direction: row;
-        width: 85%;
+        width: 70%;
         margin: auto;
     }
 }

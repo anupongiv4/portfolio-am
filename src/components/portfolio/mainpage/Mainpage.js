@@ -9,9 +9,9 @@ import IMG1 from '../../images/img1.jpg';
 import IMG2 from '../../images/IMG2.jpg';
 
 const text = [{
-    info: 'Hello. I am Anupong, based in Bangkok, Thailand. I started learning coding or Web development since january 2020. I am currently working as Guest Service Agent in Bangkok.'
+    info: 'Hello. I am Anupong, based in Bangkok, Thailand. I started learning Web development since january 2020. I am currently working as Guest Service Agent in Bangkok.'
 }, {
-    info: 'Coding is very interesting for me, so i devote myself and spend most of the time in learning and practising coding.'
+    info: 'Coding is very interesting for me, so i devote myself and spend most of the time in learning and practising coding. I always love to learn new things.'
 }, {
     info: 'Practice makes perfect This is a good qoute, but i think there is no such word Perfect, only improving and learning new thing come in my mind.'
 }];
@@ -19,7 +19,7 @@ const text = [{
 function Infomation() {
     const infomation = text.map((item, index) => {
         return (
-            <div key={index}>
+            <div className="text-info" key={index}>
                 <p>{item.info}</p>
             </div>
         )
@@ -45,15 +45,20 @@ function Mainpage() {
             <div className="body-image">
                 <div className="body-image-1" >
                     <img src={IMG1} alt="image1" />
-                    <h1>INVEST IN YOURSELF</h1>
+                </div>
+                <div className="img-1-text">
+                    <h1>DEVELOPMENT</h1>
                 </div>
                 <div className="body-image-2" >
                     <img src={IMG2} alt="image2" />
+                </div>
+                <div className="img-2-text">
                     <h1>IMPROVEMENT</h1>
                 </div>
             </div>
             <section>
                 <Infomation />
+                <a href="https://drive.google.com/file/d/1AvxHxoxKN6ZqsZIJ6MiOnBW0hTxOQB3l/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><h1>View resume</h1></a>
             </section>
         </div>
     )

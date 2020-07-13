@@ -107,6 +107,12 @@ span {
     margin: 0;
 }
 
+@media screen and (max-height: 590px) {
+    .sidenav .amlogo {
+        display: none;
+    }
+}
+
 .sidenav a .facebook-logo-m {
     width: 140px;
     height: 140px;

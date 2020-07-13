@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import WorkEdu from './work-edu';
-import profile from '../../images/profile.jpg';
+import profile from '../../images/myprofile.jpg';
 
 // language section
 const LanguageItem = (props) => {
