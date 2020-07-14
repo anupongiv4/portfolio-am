@@ -13,7 +13,7 @@ const text = [{
 }, {
     info: 'Coding is very interesting for me, so i devote myself and spend most of the time in learning and practising coding. I always love to learn new things.'
 }, {
-    info: 'Practice makes perfect This is a good qoute, but i think there is no such word Perfect, only improving and learning new thing come in my mind.'
+    info: 'Practice makes perfect This is a good quote, but i think there is no such word Perfect, only improving and learning new thing come in my mind.'
 }];
 
 function Infomation() {

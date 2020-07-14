@@ -18,7 +18,7 @@ const info = [{
     id: 2,
     name: 'Colmar Academy',
     src: '',
-    description: 'Resposive website',
+    description: 'Responsive website',
     pic: colmar,
     link: 'https://anupongiv4.github.io/colmaracademy/',
     griditem: 'grid-item2',
