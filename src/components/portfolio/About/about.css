@@ -107,8 +107,13 @@
     .personal {
         display: flex;
         flex-direction: row;
-        width: 70%;
+        width: 90%;
         margin: auto;
+    }
+}
+@media screen and (min-width: 1370px) {
+    .personal {
+        width: 85%;
     }
 }
 
