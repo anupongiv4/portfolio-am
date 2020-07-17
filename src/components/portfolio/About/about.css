@@ -36,8 +36,10 @@
     position: absolute;
     bottom: 30px;
     left: 30px;
-    color: black;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    background-color: rgba(41, 41, 41, 0.3);
+    border-radius: 5px;
 }
 
 .info-contact i {
@@ -50,65 +52,56 @@
 .skill-con {
     margin: 20px 0;
 }
-
 .skill-container {
     margin: 20px 0;
 }
-
 .skill-container i {
     margin: 15px;
 }
-
 .skill-container p {
     margin-left: 12px;
 }
-
 .skill-container .container {
     margin: auto;
     width: 95%;
     background-color: #ddd;
     border-radius: 10px;
 }
-
 .container .skills {
     text-align: center;
     color: white;
 }
 
-.html {width: 90%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.react {width: 60%; background-color: #808080;}
-.node {width: 25%; background-color: #9c1f9c;}
-.git {width: 50%; background-color: #1bc0e9;}
+.html {width: 90%; background-color: #359eff;}
+.css {width: 80%; background-color: #2e8be2;}
+.js {width: 65%; background-color: #2a7fce;}
+.react {width: 60%; background-color: #2671b8;}
+.node {width: 25%; background-color: #2363a0;}
+.git {width: 50%; background-color: #1e5588;}
 
 /* language Section  */
 
 .language-con i {
     margin: 15px;
 }
-
 .language-item {
     margin: 23px 0;
 }
-
 .language-item p {
     margin-left: 15px;
 }
-
 .language-con .language-container {
     margin: auto;
     width: 95%;
     background-color: #ddd;
     border-radius: 10px;
 }
-
 .language-container .l-skills {
     color: white;
 }
 
-.th {width: 100%; background-color: #ecc900;}
-.eng {width: 75%; background-color: #004faa;}
+.th {width: 100%; background-color: #1e5588;}
+.eng {width: 75%; background-color: #276fb3;}
 
 @media screen and (min-width: 800px) {
     .personal {
@@ -125,21 +118,17 @@
     width: 95%;
     margin: 20px auto;
 }
-
 .we-container h1 {
     margin: 0 40px 10px 40px;
     padding-top: 20px;
 }
-
 .position {
     padding: 10px 40px 10px 40px;
 }
-
 .position i {
     font-size: 2rem;
     margin: 15px 15px 15px 15px;
 }
-
 .position .info {
     margin: 10px 5px;
 }
@@ -148,38 +137,48 @@
     .we-container {
         min-height: 396px;
     }
-
-    .edu-container {
-        height: 955px;
-    }
 }
 
 /* Education Section */
 
 .edu-container h1 {
-    margin: 0 40px 10px 40px;
+    margin: 40px;
     padding-top: 15px;
 }
-
 .edu-container .edu-info h3 {
     margin: 0 40px 0 40px;
 }
-
 .edu-container .edu-info i {
     font-size: 2rem;
     margin: 10px 20px 10px 50px;
 }
 
 /* Certificate Section */
-
+.cer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .cer-item {
+    width: 20%;
+    margin: 10px auto;
+    min-height: 220px;
     padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    text-align: center;
+    transition: all 0.5s;
+}
+.cer-item:hover {
+    background-color: rgba(41, 41, 41, 0.1);
 }
 
+.cer-item img {
+    margin: 5px;
+}
 .cer-item h3 {
     margin: 5px 0 10px 0;
 }
-
 .cer-item i {
     font-size: 2rem;
     margin: 10px 15px 10px 10px;

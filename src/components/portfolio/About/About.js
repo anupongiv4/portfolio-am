@@ -65,7 +65,7 @@ const PersonalInfo = () => {
                 <p><i className="fa fa-briefcase"></i> Front End Developer</p>
                 <p><i className="fa fa-home"></i>Bangkok, TH</p>
                 <p><i className="fa fa-envelope"></i>anuponglive@gmail.com</p>
-                <p><i className="fa fa-phone"></i>+66-xxxxxxxxx</p>
+                <p><i className="fa fa-phone"></i>+66-968148444</p>
             </div>
         </div>
     )

@@ -61,7 +61,7 @@ function Mainpage() {
                 <Infomation />
                 <a href="
                 https://drive.google.com/file/d/1AvxHxoxKN6ZqsZIJ6MiOnBW0hTxOQB3l/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><h1>View resume</h1></a>
-                <a href={codecademyLink} target="_blank" rel="noopener noreferrer" ><h1>Codecademy</h1></a>
+                <a href={codecademyLink} target="_blank" rel="noopener noreferrer" ><h1>Codecademy_</h1></a>
             </section>
         </div>
     )
