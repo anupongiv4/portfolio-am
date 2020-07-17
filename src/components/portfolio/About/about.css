@@ -160,26 +160,34 @@
     justify-content: space-evenly;
 }
 .cer-item {
-    width: 20%;
-    margin: 10px auto;
+    width: 50%;
+    margin: 10px;
     min-height: 220px;
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px black;
-    text-align: center;
     transition: all 0.5s;
+    text-align: center;
 }
 .cer-item:hover {
     background-color: rgba(41, 41, 41, 0.1);
 }
-
 .cer-item img {
-    margin: 5px;
+    margin: 20px auto 5px auto;
 }
 .cer-item h3 {
-    margin: 5px 0 10px 0;
+    margin: 10px auto;
 }
 .cer-item i {
     font-size: 2rem;
     margin: 10px 15px 10px 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .cer-item {
+        width: 20%;
+    }
+    .cer-item img {
+        margin: 5px auto;
+    }
 }
