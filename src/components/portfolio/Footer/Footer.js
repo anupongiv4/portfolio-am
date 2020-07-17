@@ -10,17 +10,17 @@ function FooterNav() {
     return (
         <div className="footer-nav">
             <ul>
-                <Link to="/" >
-                    <li>Home</li>
+                <Link to="/" className="footer-link" >
+                    Home
                 </Link>
-                <Link to="/project" >
-                    <li>Portfolio</li>
+                <Link to="/project" className="footer-link" >
+                    Portfolio
                 </Link>
-                <Link to="/about" >
-                    <li>About me</li>
+                <Link to="/about" className="footer-link" >
+                    About me
                 </Link>
-                <Link to="/about" >
-                    <li>Contact</li>
+                <Link to="/about" className="footer-link" >
+                    Contact
                 </Link>
             </ul>
         </div>

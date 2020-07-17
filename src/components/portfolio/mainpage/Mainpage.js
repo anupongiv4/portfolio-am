@@ -8,12 +8,14 @@ import gitImg from '../../images/git.png';
 import IMG1 from '../../images/img1.jpg';
 import IMG2 from '../../images/IMG2.jpg';
 
+const codecademyLink = 'https://www.codecademy.com/profiles/amfilmiv';
+
 const text = [{
-    info: 'Hello. I am Anupong, based in Bangkok, Thailand. I started learning Web development since january 2020. I am currently working as Guest Service Agent in Bangkok.'
+    info: 'Hello. I am Anupong, based in Bangkok, Thailand, and have been learning Web development from scratch since january 2020. I used to work as Guest Service Agent. Now, I pay a lot of attention to Web development.'
 }, {
-    info: 'Coding is very interesting for me, so i devote myself and spend most of the time in learning and practising coding. I always love to learn new things.'
+    info: `It\'s very interesting for me to code, so i devote myself and spend most of time in learning and practising coding. Currently, I\'m learning with Codecademy (Thank you for this useful tutorials throughout the Web Development Path) along with Youtube (Freecodecamp channel, etc), Mozilla Developer Network (MDN), etc.`
 }, {
-    info: 'Practice makes perfect This is a good quote, but i think there is no such word Perfect, only improving and learning new thing come in my mind.'
+    info: 'I know that coding is like the mountain to climb, but I have decided and commited to it. Nothing I cannot learn and do it.'
 }];
 
 function Infomation() {
@@ -32,8 +34,7 @@ function Mainpage() {
     return (
         <div className="text-container" >
             <div className="header" >
-                <h1>I build website</h1>
-                <h1>I am FRONT END DEVELOPER</h1>
+                <h1>I BUILD WEBSITES WITH</h1>
                 <div>
                     <img src={htmlImg} alt="HTML logo" />
                     <img src={cssImg} alt="CSS logo" />
@@ -58,7 +59,9 @@ function Mainpage() {
             </div>
             <section>
                 <Infomation />
-                <a href="https://drive.google.com/file/d/1AvxHxoxKN6ZqsZIJ6MiOnBW0hTxOQB3l/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><h1>View resume</h1></a>
+                <a href="
+                https://drive.google.com/file/d/1AvxHxoxKN6ZqsZIJ6MiOnBW0hTxOQB3l/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><h1>View resume</h1></a>
+                <a href={codecademyLink} target="_blank" rel="noopener noreferrer" ><h1>Codecademy</h1></a>
             </section>
         </div>
     )

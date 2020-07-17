@@ -64,6 +64,10 @@ section a {
     color: black;
 }
 
+a h1 {
+    margin: 20px 0;
+}
+
 @media screen and (min-width: 400px) {
     .body-image-1 img, .body-image-2 img {
         width: 275px;
