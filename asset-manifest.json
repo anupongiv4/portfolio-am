@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-am/static/css/main.52e27b80.chunk.css",
-    "main.js": "/portfolio-am/static/js/main.2124926a.chunk.js",
-    "main.js.map": "/portfolio-am/static/js/main.2124926a.chunk.js.map",
+    "main.js": "/portfolio-am/static/js/main.681ccf93.chunk.js",
+    "main.js.map": "/portfolio-am/static/js/main.681ccf93.chunk.js.map",
     "runtime-main.js": "/portfolio-am/static/js/runtime-main.0b9ea6da.js",
     "runtime-main.js.map": "/portfolio-am/static/js/runtime-main.0b9ea6da.js.map",
     "static/js/2.b7b8c9e0.chunk.js": "/portfolio-am/static/js/2.b7b8c9e0.chunk.js",
     "static/js/2.b7b8c9e0.chunk.js.map": "/portfolio-am/static/js/2.b7b8c9e0.chunk.js.map",
     "index.html": "/portfolio-am/index.html",
-    "precache-manifest.ce9aac8e2470d88e55092deafd8474fb.js": "/portfolio-am/precache-manifest.ce9aac8e2470d88e55092deafd8474fb.js",
+    "precache-manifest.7bcc434ed1ae6e0e92e8998af26a2c10.js": "/portfolio-am/precache-manifest.7bcc434ed1ae6e0e92e8998af26a2c10.js",
     "service-worker.js": "/portfolio-am/service-worker.js",
     "static/css/main.52e27b80.chunk.css.map": "/portfolio-am/static/css/main.52e27b80.chunk.css.map",
     "static/js/2.b7b8c9e0.chunk.js.LICENSE.txt": "/portfolio-am/static/js/2.b7b8c9e0.chunk.js.LICENSE.txt",
     "static/media/IMG2.jpg": "/portfolio-am/static/media/IMG2.9f7c8444.jpg",
+    "static/media/amhotel.jpg": "/portfolio-am/static/media/amhotel.ba834c46.jpg",
     "static/media/Banner.css": "/portfolio-am/static/media/background-banner.0f1df42e.jpg",
     "static/media/comaracademy1.png": "/portfolio-am/static/media/comaracademy1.f44d99b8.png",
     "static/media/css.png": "/portfolio-am/static/media/css.5c4e16ce.png",
@@ -24,7 +25,6 @@
     "static/media/monitor.png": "/portfolio-am/static/media/monitor.abcf95a6.png",
     "static/media/myprofile.jpg": "/portfolio-am/static/media/myprofile.26576322.jpg",
     "static/media/paint-brush.png": "/portfolio-am/static/media/paint-brush.31b0f2b3.png",
-    "static/media/project-3.jpg": "/portfolio-am/static/media/project-3.c937d3a8.jpg",
     "static/media/react.png": "/portfolio-am/static/media/react.d6bdcfb2.png",
     "static/media/twitter-logo.png": "/portfolio-am/static/media/twitter-logo.e45b22a9.png"
   },
@@ -32,6 +32,6 @@
     "static/js/runtime-main.0b9ea6da.js",
     "static/js/2.b7b8c9e0.chunk.js",
     "static/css/main.52e27b80.chunk.css",
-    "static/js/main.2124926a.chunk.js"
+    "static/js/main.681ccf93.chunk.js"
   ]
 }
