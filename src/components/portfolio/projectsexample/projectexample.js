@@ -1,8 +1,8 @@
 import React from 'react';
 import './projectexample.css';
-import project3 from '../../images/project-3.jpg';
 import weatherApp from '../../images/mini-weather-app.png';
 import colmar from '../../images/comaracademy1.png';
+import amHotel from '../../images/amhotel.jpg';
 
 const info = [{
     id: 1,
@@ -13,7 +13,7 @@ const info = [{
     link: 'https://anupongiv4.github.io/mini-weather-app/',
     griditem: 'grid-item1',
     cont:'cont-1',
-    technology: 'HTML CSS JavaScript React'
+    technology: 'HTML CSS JavaScript React API'
 }, {
     id: 2,
     name: 'Colmar Academy',
@@ -26,14 +26,14 @@ const info = [{
     technology: 'HTML CSS'
 }, {
     id: 3,
-    name: 'PROJECT 3',
+    name: 'am Hotel',
     src: '',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry ( COMING SOON )',
-    pic: project3,
-    link: '',
+    description: 'Hotel infomation for customers',
+    pic: amHotel,
+    link: 'https://anupongiv4.github.io/amHotel/#/',
     griditem: 'grid-item3',
     cont:'cont-1',
-    technology: ''
+    technology: 'HTML CSS JavaScript React'
 }];
 
 function Example() {
